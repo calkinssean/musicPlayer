@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1497A30E1D9E05D100A3BFE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1497A30D1D9E05D100A3BFE3 /* AppDelegate.swift */; };
+		1497A3101D9E05D100A3BFE3 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1497A30F1D9E05D100A3BFE3 /* NowPlayingViewController.swift */; };
+		1497A3131D9E05D100A3BFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3111D9E05D100A3BFE3 /* Main.storyboard */; };
+		1497A3151D9E05D100A3BFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3141D9E05D100A3BFE3 /* Assets.xcassets */; };
+		1497A3181D9E05D100A3BFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3161D9E05D100A3BFE3 /* LaunchScreen.storyboard */; };
+		1497A3201D9E096600A3BFE3 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1497A31F1D9E096600A3BFE3 /* TrackListViewController.swift */; };
+		1497A3221D9EE7D000A3BFE3 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1497A3211D9EE7D000A3BFE3 /* Song.swift */; };
+		1497A3241D9EED8600A3BFE3 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1497A3231D9EED8600A3BFE3 /* SongTableViewCell.swift */; };
+		1497A3451D9EFBFC00A3BFE3 /* 01. Evil Has No Boundaries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A33B1D9EFBFC00A3BFE3 /* 01. Evil Has No Boundaries.mp3 */; };
+		1497A3461D9EFBFC00A3BFE3 /* 02. The Antichrist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A33C1D9EFBFC00A3BFE3 /* 02. The Antichrist.mp3 */; };
+		1497A3471D9EFBFC00A3BFE3 /* 03. Die By The Sword.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A33D1D9EFBFC00A3BFE3 /* 03. Die By The Sword.mp3 */; };
+		1497A3481D9EFBFC00A3BFE3 /* 04. Fight Till Death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A33E1D9EFBFC00A3BFE3 /* 04. Fight Till Death.mp3 */; };
+		1497A3491D9EFBFC00A3BFE3 /* 05. Metal Storm  Face The Slayer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A33F1D9EFBFC00A3BFE3 /* 05. Metal Storm  Face The Slayer.mp3 */; };
+		1497A34A1D9EFBFC00A3BFE3 /* 06. Black Magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3401D9EFBFC00A3BFE3 /* 06. Black Magic.mp3 */; };
+		1497A34B1D9EFBFC00A3BFE3 /* 07. Tormentor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3411D9EFBFC00A3BFE3 /* 07. Tormentor.mp3 */; };
+		1497A34C1D9EFBFC00A3BFE3 /* 08. The Final Command.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3421D9EFBFC00A3BFE3 /* 08. The Final Command.mp3 */; };
+		1497A34D1D9EFBFC00A3BFE3 /* 09. Crionics.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3431D9EFBFC00A3BFE3 /* 09. Crionics.mp3 */; };
+		1497A34E1D9EFBFC00A3BFE3 /* 10. Show No Mercy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1497A3441D9EFBFC00A3BFE3 /* 10. Show No Mercy.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1497A30A1D9E05D100A3BFE3 /* musicPlayerRevamped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlayerRevamped.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1497A30D1D9E05D100A3BFE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1497A30F1D9E05D100A3BFE3 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		1497A3121D9E05D100A3BFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1497A3141D9E05D100A3BFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1497A3171D9E05D100A3BFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1497A3191D9E05D100A3BFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1497A31F1D9E096600A3BFE3 /* TrackListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		1497A3211D9EE7D000A3BFE3 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		1497A3231D9EED8600A3BFE3 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		1497A33B1D9EFBFC00A3BFE3 /* 01. Evil Has No Boundaries.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. Evil Has No Boundaries.mp3"; sourceTree = "<group>"; };
+		1497A33C1D9EFBFC00A3BFE3 /* 02. The Antichrist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02. The Antichrist.mp3"; sourceTree = "<group>"; };
+		1497A33D1D9EFBFC00A3BFE3 /* 03. Die By The Sword.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03. Die By The Sword.mp3"; sourceTree = "<group>"; };
+		1497A33E1D9EFBFC00A3BFE3 /* 04. Fight Till Death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04. Fight Till Death.mp3"; sourceTree = "<group>"; };
+		1497A33F1D9EFBFC00A3BFE3 /* 05. Metal Storm  Face The Slayer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05. Metal Storm  Face The Slayer.mp3"; sourceTree = "<group>"; };
+		1497A3401D9EFBFC00A3BFE3 /* 06. Black Magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06. Black Magic.mp3"; sourceTree = "<group>"; };
+		1497A3411D9EFBFC00A3BFE3 /* 07. Tormentor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07. Tormentor.mp3"; sourceTree = "<group>"; };
+		1497A3421D9EFBFC00A3BFE3 /* 08. The Final Command.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08. The Final Command.mp3"; sourceTree = "<group>"; };
+		1497A3431D9EFBFC00A3BFE3 /* 09. Crionics.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09. Crionics.mp3"; sourceTree = "<group>"; };
+		1497A3441D9EFBFC00A3BFE3 /* 10. Show No Mercy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10. Show No Mercy.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1497A3071D9E05D100A3BFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1497A3011D9E05D100A3BFE3 = {
+			isa = PBXGroup;
+			children = (
+				1497A30C1D9E05D100A3BFE3 /* musicPlayerRevamped */,
+				1497A30B1D9E05D100A3BFE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1497A30B1D9E05D100A3BFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1497A30A1D9E05D100A3BFE3 /* musicPlayerRevamped.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1497A30C1D9E05D100A3BFE3 /* musicPlayerRevamped */ = {
+			isa = PBXGroup;
+			children = (
+				1497A30D1D9E05D100A3BFE3 /* AppDelegate.swift */,
+				1497A30F1D9E05D100A3BFE3 /* NowPlayingViewController.swift */,
+				1497A31F1D9E096600A3BFE3 /* TrackListViewController.swift */,
+				1497A3211D9EE7D000A3BFE3 /* Song.swift */,
+				1497A3231D9EED8600A3BFE3 /* SongTableViewCell.swift */,
+				1497A3111D9E05D100A3BFE3 /* Main.storyboard */,
+				1497A3141D9E05D100A3BFE3 /* Assets.xcassets */,
+				1497A34F1D9EFF1B00A3BFE3 /* Show No Mercy */,
+				1497A3161D9E05D100A3BFE3 /* LaunchScreen.storyboard */,
+				1497A3191D9E05D100A3BFE3 /* Info.plist */,
+			);
+			path = musicPlayerRevamped;
+			sourceTree = "<group>";
+		};
+		1497A34F1D9EFF1B00A3BFE3 /* Show No Mercy */ = {
+			isa = PBXGroup;
+			children = (
+				1497A33B1D9EFBFC00A3BFE3 /* 01. Evil Has No Boundaries.mp3 */,
+				1497A33C1D9EFBFC00A3BFE3 /* 02. The Antichrist.mp3 */,
+				1497A33D1D9EFBFC00A3BFE3 /* 03. Die By The Sword.mp3 */,
+				1497A33E1D9EFBFC00A3BFE3 /* 04. Fight Till Death.mp3 */,
+				1497A33F1D9EFBFC00A3BFE3 /* 05. Metal Storm  Face The Slayer.mp3 */,
+				1497A3401D9EFBFC00A3BFE3 /* 06. Black Magic.mp3 */,
+				1497A3411D9EFBFC00A3BFE3 /* 07. Tormentor.mp3 */,
+				1497A3421D9EFBFC00A3BFE3 /* 08. The Final Command.mp3 */,
+				1497A3431D9EFBFC00A3BFE3 /* 09. Crionics.mp3 */,
+				1497A3441D9EFBFC00A3BFE3 /* 10. Show No Mercy.mp3 */,
+			);
+			name = "Show No Mercy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1497A3091D9E05D100A3BFE3 /* musicPlayerRevamped */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1497A31C1D9E05D100A3BFE3 /* Build configuration list for PBXNativeTarget "musicPlayerRevamped" */;
+			buildPhases = (
+				1497A3061D9E05D100A3BFE3 /* Sources */,
+				1497A3071D9E05D100A3BFE3 /* Frameworks */,
+				1497A3081D9E05D100A3BFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musicPlayerRevamped;
+			productName = musicPlayerRevamped;
+			productReference = 1497A30A1D9E05D100A3BFE3 /* musicPlayerRevamped.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1497A3021D9E05D100A3BFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sean Calkins";
+				TargetAttributes = {
+					1497A3091D9E05D100A3BFE3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 954HJ5Q475;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1497A3051D9E05D100A3BFE3 /* Build configuration list for PBXProject "musicPlayerRevamped" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1497A3011D9E05D100A3BFE3;
+			productRefGroup = 1497A30B1D9E05D100A3BFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1497A3091D9E05D100A3BFE3 /* musicPlayerRevamped */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1497A3081D9E05D100A3BFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1497A34B1D9EFBFC00A3BFE3 /* 07. Tormentor.mp3 in Resources */,
+				1497A3471D9EFBFC00A3BFE3 /* 03. Die By The Sword.mp3 in Resources */,
+				1497A3451D9EFBFC00A3BFE3 /* 01. Evil Has No Boundaries.mp3 in Resources */,
+				1497A34D1D9EFBFC00A3BFE3 /* 09. Crionics.mp3 in Resources */,
+				1497A34A1D9EFBFC00A3BFE3 /* 06. Black Magic.mp3 in Resources */,
+				1497A3181D9E05D100A3BFE3 /* LaunchScreen.storyboard in Resources */,
+				1497A34E1D9EFBFC00A3BFE3 /* 10. Show No Mercy.mp3 in Resources */,
+				1497A3151D9E05D100A3BFE3 /* Assets.xcassets in Resources */,
+				1497A3461D9EFBFC00A3BFE3 /* 02. The Antichrist.mp3 in Resources */,
+				1497A3491D9EFBFC00A3BFE3 /* 05. Metal Storm  Face The Slayer.mp3 in Resources */,
+				1497A3481D9EFBFC00A3BFE3 /* 04. Fight Till Death.mp3 in Resources */,
+				1497A34C1D9EFBFC00A3BFE3 /* 08. The Final Command.mp3 in Resources */,
+				1497A3131D9E05D100A3BFE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1497A3061D9E05D100A3BFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1497A3221D9EE7D000A3BFE3 /* Song.swift in Sources */,
+				1497A3101D9E05D100A3BFE3 /* NowPlayingViewController.swift in Sources */,
+				1497A3241D9EED8600A3BFE3 /* SongTableViewCell.swift in Sources */,
+				1497A30E1D9E05D100A3BFE3 /* AppDelegate.swift in Sources */,
+				1497A3201D9E096600A3BFE3 /* TrackListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1497A3111D9E05D100A3BFE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1497A3121D9E05D100A3BFE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1497A3161D9E05D100A3BFE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1497A3171D9E05D100A3BFE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1497A31A1D9E05D100A3BFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1497A31B1D9E05D100A3BFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1497A31D1D9E05D100A3BFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 954HJ5Q475;
+				INFOPLIST_FILE = musicPlayerRevamped/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeanCalkins.musicPlayerRevamped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1497A31E1D9E05D100A3BFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 954HJ5Q475;
+				INFOPLIST_FILE = musicPlayerRevamped/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeanCalkins.musicPlayerRevamped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1497A3051D9E05D100A3BFE3 /* Build configuration list for PBXProject "musicPlayerRevamped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1497A31A1D9E05D100A3BFE3 /* Debug */,
+				1497A31B1D9E05D100A3BFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1497A31C1D9E05D100A3BFE3 /* Build configuration list for PBXNativeTarget "musicPlayerRevamped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1497A31D1D9E05D100A3BFE3 /* Debug */,
+				1497A31E1D9E05D100A3BFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1497A3021D9E05D100A3BFE3 /* Project object */;
+}
